@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.card{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 900px;
+    height: 110px;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    margin: 5px;
+}
+.image img{
+    width: 200px;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-top: 1.5px;
+    padding-top: 3.5px;
+}
+.capsule{
+    position: absolute;
+    bottom: 4px;
+    z-index: 10;
+    left: 157px;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    opacity: 0.9;
+    padding: 3px;
+    border-radius: 4px;
+}
+.text h1,p{
+    padding: 2px 0;
+    color: white;
+    margin-left: 20px;
+}
+.text h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Regular weight */
+    font-size: 14px;  /* Adjust the size as needed */
+}
